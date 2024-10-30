@@ -1,0 +1,13 @@
+# Intensity relative to offset
+intensityOffset: 120
+lowFVoltageOffset: 0.53351111
+lowFVoltageAmp: 0.212
+fLow: 953.67431640625
+fHigh: 476837.158203125
+vCenter: 215.3257
+vAmpLow: 0.016322
+phiLow: -3.32
+vk0: 0.00107345
+vk1: 0.00584039
+vk2: 0
+phiHigh: 1.17
