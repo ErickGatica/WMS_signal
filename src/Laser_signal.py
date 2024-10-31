@@ -67,11 +67,6 @@ class LaserSignal:
         Function to generate the laser signal
 
         Input:
-        time: time in s
-
-        Output:
-        frequency: frequency in THz
-        modAmp: modulated amplitude
         """
         voltageOffset = self.lowFVolt_offset + self.lowVolt_amp * np.sin(2 * np.pi * self.flow * time)
         modAmp = self.vk0 + self.vk1 * voltageOffset + self.vk2 * voltageOffset**2
